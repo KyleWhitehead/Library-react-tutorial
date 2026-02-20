@@ -6,7 +6,7 @@ import Footer from "./Components/Footer";
 import Highlights from "./Components/Highlights";
 import Landing from "./Components/Landing";
 import Nav from "./Components/Nav";
-import {BroweserRouter as Router, Route } from "react-router-dom"
+import {BrowserRouter as Router, Route } from "react-router-dom"
 
 function App() {
   return (
