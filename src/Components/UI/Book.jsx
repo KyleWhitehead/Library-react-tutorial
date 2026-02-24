@@ -3,7 +3,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Rating from "../UI/Rating";
 import Price from "../UI/Price";
-import { books } from "../data";
 
 const Book = ({book}) => {
   return (
