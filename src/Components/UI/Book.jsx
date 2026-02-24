@@ -3,9 +3,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Rating from "../UI/Rating";
 import Price from "../UI/Price";
-import { books } from "../../data";
+import { books } from "../data";
 
-const Book = (book) => {
+const Book = ({book}) => {
   return (
     <div className="book">
       <Link to="/books/1">
